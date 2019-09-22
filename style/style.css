@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #34947a;
+    padding: 20px;
+    margin-bottom: 20px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 3px 12px 0 #8bb9ad;
+    position: fixed;
+    top: 0;
+}
+
+nav p {
+    color: #ffffff;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 3vh;
+    letter-spacing: 5px;
+}
+
+.main {
+    /*background: #333;*/
+    padding: 10px;
+}
+
+.form-wrapper {
+    width: 500px;
+    margin: 0 auto;
+    background: ghostwhite;
+    box-shadow: 0 6px 16px 0 #d6d6d6;
+    padding: 30px;
+    position: relative;
+    top: 25vh;
+}
+
+.input-group {
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+
+.input-group label {
+    width: 100%;
+    color: #616161
+}
+
+.input-group input {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #8c8c8c;
+    outline: none;
+    text-indent: 8px;
+    color: #616161;
+    box-shadow: 0 1px 5px 0 #b2c2cc
+}
+
+.input-group select {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #8c8c8c;
+    outline: none;
+    color: #616161;
+    box-shadow: 0 1px 5px 0 #b2c2cc
+}
+
+.form-wrapper p {
+    text-align: center;
+    font-size: 4vh;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    line-height: 32px;
+    color: #484848;
+}
+
+.form-wrapper button {
+    text-align: center;
+    background-color: #34947a;
+    border: none;
+    width: 100%;
+    padding: 11px;
+    border-radius: 3px;
+    color: #ffffff;
+    box-shadow: 0 7px 12px 0 #d1d1d1;
+    cursor: pointer;
+}
+
+.form-wrapper button:hover {
+    background-color: transparent;
+    border: 2px solid #34947a;
+    color: #34947a;
+    box-shadow: 0 2px 5px 0 #a8a8a8;
+    font-size: 15px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}

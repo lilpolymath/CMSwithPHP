@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>CBT</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+	<div class="main">
+		<nav>
+			<p>Examify</p>
+		</nav>
+		<div class="form-wrapper" id="content">
+			<p>Login to your examify account</p>
+			<div class="input-group">
+				<label for="username">Name: </label>
+				<input type="text" name="username" id="username">
+			</div>
+
+			<div class="input-group">
+				<label for="coursetitle">Select Course: </label>
+				<select name="coursetitle" id="coursetitle">
+					<option>CSC</option>
+					<option>STA</option>
+					<option>MAT</option>
+					<option>GES</option>
+				</select>
+			</div>
+
+			<button id="getin">Begin Exam</button>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="./process.js"></script>
+	<script type="text/javascript" src="./qb.js"></script>
+
+	<script type="text/javascript">
+		login();
+		load_questions();
+	</script>
+</html>

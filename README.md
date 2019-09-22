@@ -1,5 +1,5 @@
 # CMS with PHP
-=====================
+
 
 A simple Content Management System developed with PHP. Retains the  most important features of a modern day blogging CMS.
 
